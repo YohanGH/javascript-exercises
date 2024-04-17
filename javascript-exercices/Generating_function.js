@@ -1,14 +1,34 @@
 // ************************************************************************** //
 //                                                                            //
 //                                                        .--.    No          //
-//   generating_function.js                              |o_o |    Pain       //
+//   Generating_function.js                              |o_o |    Pain       //
 //                                                       |:_/ |     No        //
 //   By: YohanGH <YohanGH@proton.me>                    //    ''     Code     //
 //                                                     (|     | )             //
 //   Created: 2024/04/17 08:26:40 by YohanGH           '__   _/_              //
-//   Updated: 2024/04/17 08:26:45 by YohanGH          (___)=(___)             //
+//   Updated: 2024/04/17 08:36:30 by YohanGH          (___)=(___)             //
 //                                                                            //
 // ************************************************************************** //
+
+/**
+ * Thème: Fonctions Génératrices en JavaScript
+ *
+ * Les fonctions génératrices en JavaScript sont des fonctions spéciales qui peuvent
+ * suspendre leur exécution et ensuite reprendre à partir du même point. Déclarées avec
+ * le mot-clé `function*`, ces fonctions utilisent le mot-clé `yield` pour renvoyer
+ * des valeurs intermédiaires. Elles sont particulièrement utiles pour gérer des
+ * opérations asynchrones ou pour créer des séquences de valeurs personnalisées
+ * sans la nécessité de stocker toute la séquence en mémoire.
+ *
+ * Exemple de base:
+ * function* generateIds() {
+ *   let id = 0;
+ *   while(true) {
+ *     yield id++;
+ *   }
+ * }
+ */
+
 
 /**
  * Thème: Fonctions génératrices en JavaScript

@@ -1,14 +1,33 @@
 // ************************************************************************** //
 //                                                                            //
 //                                                        .--.    No          //
-//   weakMap.js                                          |o_o |    Pain       //
+//   WeakMap.js                                          |o_o |    Pain       //
 //                                                       |:_/ |     No        //
 //   By: YohanGH <YohanGH@proton.me>                    //    ''     Code     //
 //                                                     (|     | )             //
 //   Created: 2024/04/17 08:18:14 by YohanGH           '__   _/_              //
-//   Updated: 2024/04/17 08:27:04 by YohanGH          (___)=(___)             //
+//   Updated: 2024/04/17 08:36:47 by YohanGH          (___)=(___)             //
 //                                                                            //
 // ************************************************************************** //
+
+/**
+ * Thème: WeakMap en JavaScript
+ *
+ * Un WeakMap est une collection de paires clé-valeur où les clés sont uniquement des objets
+ * et les valeurs peuvent être de n'importe quel type. La particularité des WeakMaps est
+ * que les références aux clés sont maintenues faiblement : cela signifie que si il n'existe
+ * plus de référence à un objet utilisé comme clé en dehors du WeakMap, cet objet peut être
+ * éligible pour la collecte de déchets, permettant ainsi la libération de mémoire. Les
+ * WeakMaps sont particulièrement utiles dans des situations où il est nécessaire de gérer
+ * des métadonnées associées à des objets sans empêcher la collecte de ces objets par le
+ * garbage collector.
+ *
+ * Exemple de base:
+ * let weakMap = new WeakMap();
+ * let obj = {};
+ * weakMap.set(obj, "données");
+ */
+
 
 /**
  * Thème: Utilisation des WeakMaps en JavaScript
