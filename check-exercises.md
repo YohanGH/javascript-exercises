@@ -9,7 +9,7 @@ tags:
 
 ## Javascript
 
-### 34/60
+### 34/66
 
 1. **Methods** 0/3
 2. **Anonymous functions** 0/3
